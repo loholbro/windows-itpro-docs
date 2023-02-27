@@ -31,9 +31,9 @@ The table shows the minimum requirements for each deployment. For key trust in a
 | **Windows Version** | Any supported Windows client versions| Any supported Windows client versions | Any supported Windows client versions |
 | **Schema Version** | No specific Schema requirement | Windows Server 2016 or later schema | Windows Server 2016 or later schema | Windows Server 2016 or later schema |
 | **Domain and Forest Functional Level** | Windows Server 2008 R2 Domain/Forest functional level | Windows Server 2008 R2 Domain/Forest functional level | Windows Server 2008 R2 Domain/Forest functional level |Windows Server 2008 R2 Domain/Forest functional level |
-| **Domain Controller Version** | Any supported Windows Server versions | Any supported Windows Server versions | Any supported Windows Server versions | Any supported Windows Server versions  |
+| **Domain Controller Version** | Windows Server 2016 or newer | Windows Server 2016 or newer | Any supported Windows Server versions | Any supported Windows Server versions  |
 | **Certificate Authority**| N/A |Any supported Windows Server versions | Any supported Windows Server versions | Any supported Windows Server versions |
-| **AD FS Version** | N/A | N/A | Any supported Windows Server versions | Any supported Windows Server versions |
+| **AD FS Version** | N/A | N/A | Windows Server 2016 or newer | Windows Server 2016 or newer versions |
 | **MFA Requirement** | Azure MFA, or<br/>AD FS w/Azure MFA adapter, or<br/>AD FS w/Azure MFA Server adapter, or<br/>AD FS w/3rd Party MFA Adapter | Azure MFA tenant, or<br/>AD FS w/Azure MFA adapter, or<br/>AD FS w/Azure MFA Server adapter, or<br/>AD FS w/3rd Party MFA Adapter | Azure MFA tenant, or<br/>AD FS w/Azure MFA adapter, or<br/>AD FS w/Azure MFA Server adapter, or<br/>AD FS w/3rd Party MFA Adapter | Azure MFA tenant, or<br/>AD FS w/Azure MFA adapter, or<br/>AD FS w/Azure MFA Server adapter, or<br/>AD FS w/3rd Party MFA Adapter |
 | **Azure AD Connect** | N/A | Required | Required | Required |
 | **Azure AD License** | Azure AD Premium, optional | Azure AD Premium, optional | Azure AD Premium, needed for device write-back | Azure AD Premium, optional. Intune license required |
